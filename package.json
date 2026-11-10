@@ -1,0 +1,25 @@
+{
+  "name": "discord-security-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for Authenticate users",
+  "license": "GPL-2.0",
+  "author": "rad4ngel",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run main.js"
+  },
+  "dependencies": {
+    "captcha-canvas": "^3.4.0",
+    "discord.js": "^14.28.1",
+    "skia-canvas": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0"
+  },
+  "allowScripts": {
+    "skia-canvas@3.0.8": true
+  }
+}
