@@ -5,6 +5,8 @@ const { token } = require('./config.json');
 
 const client = new Client({ intents: [
 	GatewayIntentBits.Guilds,
+	GatewayIntentBits.GuildMembers,
+	GatewayIntentBits.GuildModeration,
 	GatewayIntentBits.GuildMessages,
 	GatewayIntentBits.MessageContent,
 ] });
